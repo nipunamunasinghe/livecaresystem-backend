@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(
     cors({
-      origin: ["http://localhost:3000", "https://pinvent-app.vercel.app"],
+      origin: ["http://localhost:3000", "https://livecaresystem.vercel.app"],
       credentials: true,
     }));
 
